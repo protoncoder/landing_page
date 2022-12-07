@@ -1,6 +1,7 @@
 .header a {
     text-decoration: none;
     color: #f9faf8;
+    
 }
 
 .header ul {
@@ -11,35 +12,42 @@
     gap: 20px;
     padding: 0;
     font-size: 15px;
+    
 }
 
-.header {
+.header, .container-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
     background: #1F2937;
     color: #f9faf8;
-}
-
-.container-header {
     border: 3px solid red;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 
-.left-content {
-    border: 5px solid green;
+button {
+    color: white;
+    background-color: rgb(33, 148, 194);
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+ .left-content {
+    border: 3px solid green;
     display: flex;
-    align-items:center;
-    
+    justify-content: space-around;
+    align-items: center;
+    gap: 205px;
+    padding: auto;
+    margin: auto;
+} 
+
+.left-be {
+    border: 3px solid yellow
 }
 
 .right-content {
-    border: 5px solid violet;
-    padding: 5px;
-    display: flex;
-    
+    border: 3px solid violet;
 }
+
