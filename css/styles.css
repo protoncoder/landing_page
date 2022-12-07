@@ -1,12 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-link {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .navbar ul {
@@ -18,4 +25,27 @@
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.container .left h1 {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+} 
+
+.container .left button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 5px;
+    width: 100px;
+    color: #f9faf8;
+    border: none;
 }
