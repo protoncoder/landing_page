@@ -175,3 +175,8 @@ body {
 .no-space {
     margin: 0px;
 }
+
+.section-five {
+    text-align: center;
+    background-color: #f9faf8;
+}
