@@ -130,7 +130,7 @@ body {
     color: #1f2937;
     padding: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
  }
 
@@ -139,5 +139,36 @@ body {
     font-weight: bold;
  }
 
+.blue-padding {
+    background-color: #3882f6;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    color: #e5e7eb
+}
 
-
+.four-right button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    /* make cursor looks like hand */
+    cursor: pointer;
+}
+ 
+.no-space {
+    margin: 0px;
+}
