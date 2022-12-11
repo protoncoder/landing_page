@@ -179,4 +179,6 @@ body {
 .section-five {
     text-align: center;
     background-color: #1f2937;
+    padding: 15px;
+    color: #e5e7eb;
 }
